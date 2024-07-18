@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:imagenes_flutter/services/select_image.dart';
+import 'package:imagenes_flutter/services/take_image.dart';
 import 'services/upload_image.dart';
 
 class HomePage extends StatefulWidget {
@@ -19,7 +20,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Material App Bar'),
+        title: const Text('Storage'),
       ),
       body: Column(
         children: [
@@ -37,6 +38,13 @@ class _HomePageState extends State<HomePage> {
                 imagen_to_upload = bytes;
               });
             }, child: const Text("Seleccionar imagen")),
+          ElevatedButton(
+            onPressed: () async {
+              final bytes = await tomarImage();
+              setState(() {
+                imagen_to_upload = bytes;
+              });
+            }, child: const Text("Tomar imagen")),
           ElevatedButton(
             onPressed: () async {
               if (imagen_to_upload == null) {

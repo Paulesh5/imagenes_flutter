@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:104302360213:android:f57dcbd144eb60ea3acd9c",
         "android_client_info": {
-          "package_name": "com.paul.image"
+          "package_name": "com.example.imagenes_flutter"
         }
       },
       "oauth_client": [],
