@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "104302360213",
+    "project_id": "fir-a4b5b",
+    "storage_bucket": "fir-a4b5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104302360213:android:f57dcbd144eb60ea3acd9c",
+        "android_client_info": {
+          "package_name": "com.paul.image"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUB1to5TSf9HKCnDbLpwhTIs62H5wDHw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
