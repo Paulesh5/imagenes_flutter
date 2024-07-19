@@ -16,15 +16,19 @@ DESCARGAR APK:
 - [APK](https://drive.google.com/file/d/1vPMLa-QVOkx8o101ETv9x_8sRsyOq_bv/view?usp=sharing)
 
 HOST WEB:
-- [PÁGINA WEB]()
+- [PÁGINA WEB](https://fir-flutter-codelab-2a70e.web.app/)
 
 ## CAPTURAS 
+
+![Imagen de WhatsApp 2024-07-18 a las 23 41 45_f3551e8d](https://github.com/user-attachments/assets/81ff6ea2-f088-4ed6-b714-50abdd2613fd)
 
 ![Imagen de WhatsApp 2024-07-18 a las 21 23 09_42745389](https://github.com/user-attachments/assets/e31f850b-26d6-48d5-997d-ac2af78d9426)
 
 ![Imagen de WhatsApp 2024-07-18 a las 21 06 08_986851c9](https://github.com/user-attachments/assets/f6a21ff5-d870-4d88-b635-32de1e341cac)
 
 ![Imagen de WhatsApp 2024-07-18 a las 20 50 16_805621b3](https://github.com/user-attachments/assets/e1bfe0b1-fcac-4bb1-ab2e-262a1132d78d)
+
+
 
 
 
