@@ -1,16 +1,31 @@
-# imagenes_flutter
+# SEGUNDA PRUEBA
 
-A new Flutter project.
+Este repositorio presenta una aplicación movil conectada a Firebase y desarrollada con Flutters:
 
-## Getting Started
+- Implementar una aplicación que me permita tomar fotografías y subirlas al Storage de firebase. 
 
-This project is a starting point for a Flutter application.
+## Desarrolladores
+| <!-- -->      | <!-- -->        | <!-- -->      |
+|:-------------:|:---------------:|:-------------:|
+| PAUL HIDALGO  | GILMAR MORALES | ERICK RUIZ |       
+|![imagen](https://github.com/Morales-Gilmar-Vladimir/PruebaLogin/assets/117743844/c00dd7cc-ae51-405e-aed4-193abecda412)|![imagen](https://github.com/Morales-Gilmar-Vladimir/PruebaLogin/assets/117743844/a19519fa-99a2-4e90-afcb-7d580ae7f710)|![imagen](https://github.com/Morales-Gilmar-Vladimir/PruebaLogin/assets/117743844/8941e0b8-8cd4-4451-8e89-c96be369d5db)|
 
-A few resources to get you started if this is your first Flutter project:
+## DESPLIEGUES
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+DESCARGAR APK:
+- [APK](https://drive.google.com/file/d/1vPMLa-QVOkx8o101ETv9x_8sRsyOq_bv/view?usp=sharing)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+HOST WEB:
+- [PÁGINA WEB]()
+
+## CAPTURAS 
+
+![Imagen de WhatsApp 2024-07-18 a las 21 23 09_42745389](https://github.com/user-attachments/assets/e31f850b-26d6-48d5-997d-ac2af78d9426)
+
+![Imagen de WhatsApp 2024-07-18 a las 21 06 08_986851c9](https://github.com/user-attachments/assets/f6a21ff5-d870-4d88-b635-32de1e341cac)
+
+![Imagen de WhatsApp 2024-07-18 a las 20 50 16_805621b3](https://github.com/user-attachments/assets/e1bfe0b1-fcac-4bb1-ab2e-262a1132d78d)
+
+
+
+
