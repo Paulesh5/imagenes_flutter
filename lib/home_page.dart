@@ -20,7 +20,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Storage'),
+        title: const Text('Almacenar Fotos'),
+        backgroundColor: const Color.fromARGB(0, 27, 15, 79),
       ),
       body: Center(
         child: Container(
@@ -34,23 +35,21 @@ class _HomePageState extends State<HomePage> {
               // Display the image if available
               Expanded(
                 child: imagen_to_upload != null
-                    ? SingleChildScrollView(
-                        child: Container(
+                    ?  Container(
                           constraints: BoxConstraints(
                             maxHeight: 300, // Max height for the image
                             maxWidth: double.infinity, // Max width for the image
                           ),
                           child: FittedBox(
                             fit: BoxFit.contain,
-                            child: Image.memory(imagen_to_upload!),
+                            child: Image.memory(imagen_to_upload!,width: 350,),
                           ),
-                        ),
-                      )
+                        )
                     : Container(
                         margin: const EdgeInsets.all(10),
                         height: 200,
                         width: double.infinity,
-                        color: Colors.red,
+                        color: const Color.fromARGB(159, 87, 52, 50),
                         child: Center(
                           child: Text(
                             'Vista previa de la imagen',
@@ -126,6 +125,9 @@ class _HomePageState extends State<HomePage> {
                         try {
                           final uploaded = await uploadImage(imagen_to_upload!);
                           if (uploaded) {
+                            setState(() {
+                              imagen_to_upload = null;
+                            });
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(content: Text('Imagen subida correctamente')),
                             );
@@ -143,13 +145,19 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: const Text("Subir a Firebase"),
                     ),
+                    SizedBox(height: 10),
+                    ElevatedButton(
+                      onPressed: () => setState(() {
+                        imagen_to_upload = null;
+                      }),
+                      child: const Text("Cancelar"))
                   ],
                 ),
               ),
             ],
           ),
         ),
-      ),
+        ),
     );
   }
 
